@@ -1,6 +1,6 @@
 # interface
 def interface():
-    choice = 0
+    #choice = 0
     while True:
         print("Cholesterol Calculator")
         print("Options: ")
