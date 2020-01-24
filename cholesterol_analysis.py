@@ -1,11 +1,13 @@
 # interface
-def interfact():
-    print("Cholesterol Calculator")
-    print("Options: ")
-    print(" 9  - Quit")
-    choice = input("Enter your options: ")
-    if choice == "9":
-        return
+def interface():
+    choice = 0
+    while True:
+        print("Cholesterol Calculator")
+        print("Options: ")
+        print(" 9  - Quit")
+        choice = input("Enter your options: ")
+        if choice == "9":
+            return
         
 if __name__ == "__main__":
     interface()
