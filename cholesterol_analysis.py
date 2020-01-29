@@ -33,7 +33,9 @@ def cholesterol_analysis():
     elif test_info[0] == "LDL":
         answer = LDL_analysis(int(test_info[1]))
         print("The level is {}".format(answer))
-        
+
+def new_feature():
+    pass 
         
     
 def interface():
