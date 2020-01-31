@@ -6,7 +6,7 @@ def test_HDL_analysis():
 	assert answer == expected
 
 
-def test_HDL_analysis():
+def test_HDL_analysis_2():
 	from cholesterol_analysis import HDL_analysis
 	answer = HDL_analysis(40)
 	expected = "Borderline low"
@@ -19,7 +19,7 @@ def test_LDL_analysis():
 	expected = "High"
 	assert answer == expected
 
-def test_fever_check():
-    from cholesterol_analysis import fever_check
-    new_data fever_check(new_data)
-    expected = True
+#def test_fever_check():
+    #from cholesterol_analysis import fever_check
+    #new_data fever_check(new_data)
+    #expected = True
