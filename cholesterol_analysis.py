@@ -4,7 +4,7 @@
 def LDL_analysis(LDL_level):
     if LDL_level >=190:
         return "Very High"
-    elif 160 >= LDL_level > 189:
+    elif 160 <= LDL_level <= 189:
         return "High"
     elif 130 <= LDL_level <159:
         return "Borderline High"
@@ -65,4 +65,5 @@ def fever_check(temp_list):
     
 
 if __name__ == "__main__":
+    print(LDL_analysis(165))
     interface()
